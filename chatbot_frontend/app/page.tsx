@@ -173,7 +173,7 @@ export default function ChatInterface() {
   const [messages, setMessages] = useState<Message[]>([
     {
       id: "1",
-      text: "Hello! I'm WLGA AI Assistant. How can I help you today?",
+      text: "Hello! \n I'm WLGA AI Assistant.\n How can I help you today?",
       isUser: false,
       timestamp: new Date(),
     },
